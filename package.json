@@ -22,6 +22,7 @@
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "babel-loader": "^8.1.0",
+    "eslint-plugin-react": "^7.20.6",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
