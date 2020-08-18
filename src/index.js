@@ -1,2 +1,3 @@
-const a = 10;
-console.log(a)
+const a = {
+  b: 10,
+};
