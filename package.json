@@ -2,5 +2,10 @@
   "name": "react-ts-mobx-project",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "author": {
+    "email": "aleksohotnikov@gmail.com",
+    "name": "Aleksandr Ohotnikov",
+    "url": "http://github.com/alexohotnikov"
+  }
 }
