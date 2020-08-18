@@ -2,4 +2,4 @@ import React from "react";
 import { render } from "react-dom";
 import App from "./App.tsx";
 
-render(<App />, document.querySelector("#react-root"));
+render(<App text="TS" />, document.querySelector("#react-root"));

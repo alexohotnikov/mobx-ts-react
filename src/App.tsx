@@ -1,7 +1,11 @@
 import React from "react";
 
 interface IApps {
-  text: string;
+  text?: string;
 }
 
-const App: React.FC<IApps> = () => <h1> Hello, dearr TypeScript </h1>;
+const App: React.FC<IApps> = ({ text = "TypeScript" }) => (
+  <h1> Hello, dearr {text} </h1>
+);
+
+export default App;
