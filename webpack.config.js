@@ -1,4 +1,6 @@
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
     output: {
@@ -11,5 +13,10 @@ module.exports = {
         hotOnly: true,
         liveReload: true,
         open: true,
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'MobX is amazing?',
+        }),
+    ]
 }
