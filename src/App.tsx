@@ -1,3 +1,7 @@
 import React from "react";
 
-const App: React.FC = () => <h1> Hello, dearr TypeScript </h1>;
+interface IApps {
+  text: string;
+}
+
+const App: React.FC<IApps> = () => <h1> Hello, dearr TypeScript </h1>;
